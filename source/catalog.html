@@ -19,11 +19,18 @@
     <div class="header-container">
       <nav class="navigation">
         <a class="logo" href="#">
-          <img class="navigation__logo navigation__logo--icon" src="#" width="33" height="38" alt="Логотип компании иконка кота">
-          <img class="navigation__logo navigation__logo--text" src="#" width="101" height="18" alt="Логотип компании Текст Cat Energy">
+          <picture>
+            <source media="(min-width: 1440px)" srcset="images/logo-desktop.svg" type="image/svg+xml" width="70" height="59">
+            <source media="(min-width: 768px)" srcset="images/logo-tablet.svg" type="image/svg+xml" width="60" height="50">
+            <img class="navigation__logo navigation__logo--icon" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип компании иконка кота">
+          </picture>
+          <img class="navigation__logo navigation__logo--text" src="images/cat-energy-logo.svg" width="101" height="20" alt="Логотип компании Cat Energy">
         </a>
-        <button class="navigation__button" type="button">
-          <span class="visually-hidden">кнопка разворачивания/закрытия меню</span>
+        <button class="navigation__button--burger" type="button">
+          <span class="visually-hidden">кнопка разворачивания меню</span>
+        </button>
+        <button class="navigation__button--close" type="button">
+          <span class="visually-hidden">кнопка закрытия меню</span>
         </button>
         <ul class="navigation__list">
           <li class="navigation__item">
@@ -220,7 +227,7 @@
           <button class="product__button-order button" type="button">Заказать</button>
         </li>
         <li class="product__item">
-          <h2 class="product__title product-common-title">Показать еще 100500 товаров</h2>
+          <h2 class="product__title product__title--show-more product-common-title">Показать еще 100500 товаров</h2>
           <p class="product__description">На самом деле вкусов гораздо больше!</p>
           <a class="product__link button button--show-all" href="#">Показать все</a>
         </li>
@@ -298,7 +305,7 @@
   <footer class="footer">
     <h2 class="visually-hidden">Футер контент социальные сети</h2>
     <a class="footer__logo logo" href="index.html">
-      <img class="footer__logo--text navigation__logo" src="#" width="128" height="24" alt="Логотип Cat Energy">
+      <img class="footer__logo--text navigation__logo" src="images/cat-energy-logo.svg" width="128" height="24" alt="Логотип Cat Energy">
     </a>
     <ul class="footer__social-list social__list">
       <li class="footer__social-item social__item">

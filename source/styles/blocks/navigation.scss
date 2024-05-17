@@ -1,0 +1,29 @@
+.navigation__button--burger {
+  background-image: url("../../icons/menu-burger.svg");
+  color: #000000;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: $base-white;
+}
+
+.navigation__button--close {
+  background-image: url("../../icons/menu-close.svg");
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: $base-white;
+}
+
+.navigation__list {
+  list-style: none;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: $base-black-text;
+  text-transform: uppercase;
+  font-family: $font-header;
+  font-size: 20px;
+  line-height: 20px;
+}

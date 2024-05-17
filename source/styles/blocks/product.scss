@@ -1,3 +1,7 @@
+.product__list {
+  list-style: none;
+}
+
 .product-common-title {
   font-family: $font-header;
   color: $base-black-second;
@@ -8,6 +12,15 @@
 
 .product__title {
   color: $base-black-first;
+}
+
+.product__title--show-more::before {
+  background-image: url("../../icons/plus-icon.svg");
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
 }
 
 .product__description {

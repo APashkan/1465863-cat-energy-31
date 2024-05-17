@@ -16,8 +16,20 @@
   line-height: 14px;
 }
 
+.extra__hot-deal::before {
+  content: "";
+  background-image: url("../../icons/gift-icon.svg");
+  background-size: 78px 80px;
+}
+
 .extra__hot-deal {
   font-family: $font-description;
+  background-image: url("../../icons/gift-icon.svg");
+  background-size: 78px 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 280px;
+  height: 290px;
   background-color: $light-green;
   font-size: 16px;
   line-height: 20px;

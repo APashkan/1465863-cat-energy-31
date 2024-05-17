@@ -1,1 +1,62 @@
+.features__list {
+  list-style: none;
+}
 
+.features__item {
+
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.features__item--meal::before {
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-image: url("../../icons/leaf-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.features__item--powder::before {
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-image: url("../../icons/powder-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.features__item--functional::before {
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-image: url("../../icons/food-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.features__item--result::before {
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-image: url("../../icons/clock-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,14 @@
+.footer__copyright {
+  text-decoration: none;
+  font-family: $font-description;
+  font-size: 16px;
+  line-height: 20px;
+  color: $light-dark-text;
+}
+
+.footer__link {
+  mask-image: url("../../images/html-academy-logo.svg");
+  mask-size: 27px 34px;
+  mask-repeat: no-repeat;
+  background-color: #666666;
+}

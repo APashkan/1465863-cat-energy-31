@@ -1,0 +1,26 @@
+.social__list {
+  list-style: none;
+  display: flex;
+}
+
+.social__link--vkontakte {
+  mask-image: url("../../icons/vkontakte-icon.svg");
+  mask-size: 28px 22px;
+  mask-repeat: no-repeat;
+  background-color: #666666;
+}
+
+.social__link--youtube {
+  mask-image: url("../../icons/youtube-icon.svg");
+  mask-size: 28px 22px;
+  mask-repeat: no-repeat;
+  background-color: #666666;
+}
+
+.social__link--telegram {
+  mask-image: url("../../icons/telegram-icon.svg");
+  mask-size: 28px 22px;
+  mask-repeat: no-repeat;
+  background-color: #666666;
+}
+

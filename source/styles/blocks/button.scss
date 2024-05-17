@@ -1,5 +1,6 @@
 .button {
   color: $base-white;
+  border: none;
   font-family: $font-header;
   text-transform: uppercase;
   background-color: $base-green;
@@ -12,5 +13,4 @@
   color: $light-dark-text;
   text-decoration: none;
   background-color: $base-grey-background;
-  padding: 10px 95px;
 }
